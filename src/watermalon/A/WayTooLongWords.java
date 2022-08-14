@@ -1,4 +1,4 @@
-package watermalon;
+package watermalon.A;
 
 import java.util.ArrayList;
 import java.util.List;

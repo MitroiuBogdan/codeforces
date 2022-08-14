@@ -1,4 +1,4 @@
-package watermalon;
+package watermalon.A;
 
 import java.util.HashMap;
 import java.util.Map;
