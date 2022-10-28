@@ -3,6 +3,7 @@ package watermalon.functional;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 public class Vykas {
 
@@ -15,6 +16,10 @@ public class Vykas {
         List<String> name = List.of("Ana", "Ema", "Luna");
         consumerPrintNames(name);
 
+    }
+
+    public static Supplier<String> getStringSupplier() {
+        return () -> "name".toUpperCase();
     }
 
     public static void consumerPrintNames(List<String> name) {
